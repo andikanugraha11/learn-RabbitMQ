@@ -1,0 +1,19 @@
+{
+  "name": "learn-rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rabbitMQ",
+    "mq",
+    "node"
+  ],
+  "author": "Andika Nugraha",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.2"
+  }
+}
