@@ -4,7 +4,7 @@ amqp.connect('amqp://localhost')
     .then(conn => {
         return conn.createChannel()
             .then(ch => {
-                const ok = ch.assertExchange('hello', {durable:false}) // Queue declaration
+                const ok = ch.assertQueue('hello', {durable:false}) // Queue declaration
 
                 ok.then(()=>{
                     return ch.consume('hello', msg => {
